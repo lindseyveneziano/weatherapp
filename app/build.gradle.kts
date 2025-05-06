@@ -56,6 +56,9 @@ dependencies {
     implementation(libs.androidx.ui.unit)
     implementation(libs.androidx.material3)
 
+    // Navigation (NEW)
+    implementation("androidx.navigation:navigation-compose:2.7.6")
+
     // Networking
     implementation(libs.retrofit2)
     implementation(libs.retrofit2.converter.gson)
@@ -71,4 +74,3 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
-
